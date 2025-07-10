@@ -1,0 +1,128 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+body{
+    background-color: rgb(181, 251, 181);
+    font-family: 'android';
+    
+}
+
+header{
+    background-image: linear-gradient(to top, #1D653C, #3BD27F);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.445);  
+}
+
+h2#principal{
+    text-shadow: 3px 0px 1px rgba(0, 0, 0, 0.475);
+    font-weight: lighter;
+}
+
+h1#principal{
+    text-shadow: 3px 0px 1px rgba(0, 0, 0, 0.468);
+}
+
+nav{
+    text-align: left;
+}
+
+nav>a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav>a:hover{
+    text-decoration: underline;
+}
+
+div#corpo{
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.253);
+    text-align: justify;
+}
+
+h1#corpo{
+    color: #1D653C;
+    text-align: left;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 15px;
+}
+
+h2.corpo{
+    color: #1D653C;
+    background-image: linear-gradient(to right, #d3f7e3, #55a57810 );
+}
+
+ p > a{
+    text-decoration: none;
+    color: #1D653C;
+    font-weight: bold;
+}
+
+p>a:hover{
+    text-decoration: underline;
+}
+
+div#bloco{
+    background-color: #54d28b74;
+    border-radius: 15px;
+    
+}
+
+ h2#bloco{
+    background-color: #1D653C;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div#bloco>p{
+    padding: 10px;
+}
+
+div#bloco > ul{
+    columns: 2;
+}
+footer{
+    background-color: #1D653C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 3px 0px 3px 0px;
+}
+
+footer>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer>a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
